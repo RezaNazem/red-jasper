@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RedJasperComponent } from './red-jasper.component';
+import { DataTableComponent } from './data-table.component';
 
-describe('RedJasperComponent', () => {
-  let component: RedJasperComponent;
-  let fixture: ComponentFixture<RedJasperComponent>;
+describe('DataTableComponent', () => {
+  let component: DataTableComponent;
+  let fixture: ComponentFixture<DataTableComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [RedJasperComponent]
+      declarations: [DataTableComponent]
     });
-    fixture = TestBed.createComponent(RedJasperComponent);
+    fixture = TestBed.createComponent(DataTableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

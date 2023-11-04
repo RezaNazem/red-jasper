@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
-import { RedJasperComponent } from './red-jasper.component';
-
-
+import { DataTableComponent } from './data-table/data-table.component';
 
 @NgModule({
   declarations: [
-    RedJasperComponent
+    
+  
+    DataTableComponent
   ],
   imports: [
   ],
   exports: [
-    RedJasperComponent
+    
   ]
 })
 export class RedJasperModule { }
